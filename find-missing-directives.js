@@ -4,7 +4,9 @@
   function isEmpty(node) { return !node.innerHTML; }
 
   var htmlNodes = [
-    'h1', 'script', 'p', 'br'
+    'h1', 'script', 'p', 'br', 'a', 'b', 'div', 'i', 'li', 'abbr', 'textarea', 'td',
+    'rect', 'line', 'path', 'input', 'text', 'circle', 'polygon', 'source', 'mask', 'section',
+    'g'
   ];
 
   function name(node) {
