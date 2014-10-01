@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+
+<body>
+  <h1>Hello</h1>
+  <script></script>
+  <p>There is nothing missing</p>
+  <p></p>
+  <br/>
+  <script src="../find-missing-directives.js"></script>
+  <script>
+    var empty = findMissingDirectives();
+    if (empty.length) {
+      throw new Error('Found missing directives ' + empty.join(','));
+    } else {
+      console.log('no missing tags');
+    }
+  </script>
+</body>
+</html>
