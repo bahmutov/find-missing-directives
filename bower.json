@@ -1,0 +1,29 @@
+{
+  "name": "find-missing-directives",
+  "main": "find-missing-directives.js",
+  "version": "0.0.0",
+  "authors": [
+    "Gleb Bahmutov <gleb.bahmutov@gmail.com>"
+  ],
+  "description": "Finds missing angular directives that cause empty tags",
+  "keywords": [
+    "angular",
+    "ng",
+    "angularjs",
+    "missing",
+    "testing",
+    "debug",
+    "utility",
+    "directive",
+    "empty"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bahmutov/find-missing-directives",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
