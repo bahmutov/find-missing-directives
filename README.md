@@ -28,6 +28,12 @@ This script makes it simple to discover any custom tags that have no inner conte
 * Does not work with transcluded directives (because they do include other content)
 * Does not work with attribute directives
 
+## Details
+
+install `bower install find-missing-directives`
+
+related utility [stop-angular-overrides](https://github.com/bahmutov/stop-angular-overrides)
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2014
