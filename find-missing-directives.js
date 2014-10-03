@@ -1,7 +1,7 @@
 (function registerFindMissingDirectives(root) {
   'use strict';
 
-  function isEmpty(node) { return !node.innerHTML; }
+  function isEmpty(node) { return !node.innerHTML.trim(); }
 
   var htmlNodes = [
     'h1', 'script', 'p', 'br', 'a', 'b', 'div', 'i', 'li', 'abbr', 'textarea', 'td',
