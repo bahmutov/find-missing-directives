@@ -7,7 +7,8 @@
     'h1', 'script', 'p', 'br', 'a', 'b', 'div', 'i', 'li', 'abbr', 'textarea', 'td',
     'rect', 'line', 'path', 'input', 'text', 'circle', 'polygon', 'source', 'mask', 'section',
     'g', 'link', 'span', 'img', 'th', 'thread', 'tbody', 'gr', 'em', 'strong',
-    'hr', 'ul', 'tspan', 'label', 'option', 'pre', 'code', 'stop'
+    'hr', 'ul', 'tspan', 'label', 'option', 'pre', 'code', 'stop',
+    'colgroup', 'col'
   ];
 
   function name(node) {
