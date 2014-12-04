@@ -1,7 +1,7 @@
 (function registerFindMissingDirectives(root) {
   'use strict';
 
-  function isEmpty(node) { return !node.innerHTML.trim(); }
+  function isEmpty(node) { return !node || !node.innerHTML || !node.innerHTML.trim(); }
 
   var htmlNodes = 'a abbr address area article aside audio b base bdi bdo big blockquote body br \
     button canvas caption cite code col colgroup data datalist dd del details dfn \
